@@ -1,0 +1,9 @@
+# oracle download
+
+## References
+* http://www.oracle.com/technetwork/database/options/database-vault/index-090593.html
+
+### Oracle Database Vault 10g Release 2 (10.2.0.4.0)
+#### Linux x86-64
+##### Download Oracle Database Vault 10g Release 2 (10.2.0.4.0) for Linux x86-64
+* http://download.oracle.com/otn/linux/dv/database_vault_Linux-x86-64_10204.zip
