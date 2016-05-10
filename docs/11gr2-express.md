@@ -236,7 +236,7 @@ export PATH=$ORACLE_HOME/bin:$PATH
 ```
 bash -x ./oracle_env.sh 
 ```
-```
+```c
 /*
 + export ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe
 + ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe
