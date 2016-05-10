@@ -215,3 +215,37 @@ Starting Oracle Net Listener.
 Starting Oracle Database 11g Express Edition instance.
 */
 ```
+
+##### Go to the xe/bin directory
+```
+cd /u01/app/oracle/product/11.2.0/xe/bin
+```
+
+##### Read the oracle_env bash script
+```
+less oracle_env.sh
+```
+```bash
+export ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe
+export ORACLE_SID=XE
+export NLS_LANG=`$ORACLE_HOME/bin/nls_lang.sh`
+export PATH=$ORACLE_HOME/bin:$PATH
+```
+
+##### Run the bash script to configure your environment variables
+```
+bash -x ./oracle_env.sh 
+```
+```
+/*
++ export ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe
++ ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe
++ export ORACLE_SID=XE
++ ORACLE_SID=XE
+++ /u01/app/oracle/product/11.2.0/xe/bin/nls_lang.sh
++ export NLS_LANG=AMERICAN_AMERICA.AL32UTF8
++ NLS_LANG=AMERICAN_AMERICA.AL32UTF8
++ export PATH=/u01/app/oracle/product/11.2.0/xe/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/bachmeb/bin
++ PATH=/u01/app/oracle/product/11.2.0/xe/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/bachmeb/bin
+*/
+```
