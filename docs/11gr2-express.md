@@ -249,3 +249,23 @@ bash -x ./oracle_env.sh
 + PATH=/u01/app/oracle/product/11.2.0/xe/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/bachmeb/bin
 */
 ```
+
+##### Add your user id to the dba group
+```
+dba
+```
+
+Add your user account to the dba group
+```
+sudo usermod -a -G mailman [your user account]
+```
+
+##### Exit your user sesison and switch back to your account to get Linux to recognize your account as a member of the mailman group
+```
+exit
+sudo su -l [your user account]
+```
+
+##### Launch the getting started shortcut on the Desktop
+* oraclexe-gettingstarted.desktop
+
