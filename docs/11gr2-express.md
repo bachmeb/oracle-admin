@@ -119,3 +119,37 @@ Executing post-install steps...
 You must run '/etc/init.d/oracle-xe configure' as the root user to configure the database.
 */
 ```
+
+##### Run oracle-xe configure 
+```
+sudo /etc/init.d/oracle-xe configure
+```
+```c
+/*
+
+Oracle Database 11g Express Edition Configuration
+-------------------------------------------------
+This will configure on-boot properties of Oracle Database 11g Express 
+Edition.  The following questions will determine whether the database should 
+be starting upon system boot, the ports it will use, and the passwords that 
+will be used for database accounts.  Press <Enter> to accept the defaults. 
+Ctrl-C will abort.
+
+Specify the HTTP port that will be used for Oracle Application Express [8080]:8888
+
+Specify a port that will be used for the database listener [1521]:
+
+Specify a password to be used for database accounts.  Note that the same
+password will be used for SYS and SYSTEM.  Oracle recommends the use of 
+different passwords for each database account.  This can be done after 
+initial configuration:
+The password you entered contains invalid characters. Enter password:
+The password you entered contains invalid characters. Enter password:
+Confirm the password:
+
+Do you want Oracle Database 11g Express Edition to be started on boot (y/n) [y]:n
+
+Starting Oracle Net Listener...Done
+Configuring database...
+*/
+```
