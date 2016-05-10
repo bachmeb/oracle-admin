@@ -36,6 +36,8 @@
     * file-max  6815744
     * VERSION 2.4.21
     * ip_local_port_range 9000–65500
+* Permission
+  * You must have root permission to install Oracle Database XE.
 
 ##### Download Oracle Database Express Edition 11g Release 2 for Linux x64
 * http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
