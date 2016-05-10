@@ -150,6 +150,8 @@ Confirm the password:
 Do you want Oracle Database 11g Express Edition to be started on boot (y/n) [y]:n
 
 Starting Oracle Net Listener...Done
-Configuring database...
+Configuring database...Done
+Starting Oracle Database 11g Express Edition instance...Done
+Installation completed successfully.
 */
 ```
