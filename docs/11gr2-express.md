@@ -1,11 +1,20 @@
 # oracle db 11g release 2
 
 ## References
-* 
+* http://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm#XEINL101
+
+### Requirements
+* Operating system
+   * One of the following:
+      * Oracle Enterprise Linux 4 Update 7
+      * Oracle Enterprise Linux 5 Update 2
+      * Red Hat Enterprise Linux 4 Update 7
+      * Red Hat Enterprise Linux 5 Update 2
+      * SUSE Linux Enterprise Server 10 SP2
+      * SUSE Linux Enterprise Server 11
 
 ##### Download Oracle Database Express Edition 11g Release 2 for Linux x64
 * http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
-* http://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm#XEINL101
 
 ##### Copy the install file to the target machine
 ```
