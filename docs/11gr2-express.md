@@ -38,6 +38,15 @@
     * ip_local_port_range 9000–65500
 * Permission
   * You must have root permission to install Oracle Database XE.
+### Limitations
+* Data
+  * The maximum amount of user data in an Oracle Database XE database cannot exceed 11 gigabytes. If the user data grows beyond this limit, then an ORA-12592 error will appear. To use more than 11 gigabytes of user data, upgrade to Oracle Database 11g Standard Edition, Oracle Database 11g Standard Edition One, or Oracle Database 11g Enterprise Edition.
+* RAM
+  * The maximum amount of RAM that an Oracle Database XE database uses cannot exceed 1 gigabyte, even if more is available. 
+  * Table 1, "Oracle Database XE Requirements" provides the minimum and recommended RAM that you should use. 
+  * The exact amount of RAM that Oracle Database XE uses is computed automatically using Automatic Memory Management.
+
+To use more than 1 gigabyte of RAM, upgrade to Oracle Database 11g Standard Edition, Oracle Database 11g Standard Edition One, or Oracle Database 11g Enterprise Edition.
 
 ##### Download Oracle Database Express Edition 11g Release 2 for Linux x64
 * http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
@@ -94,5 +103,19 @@ total 309892
 -rw-rw-r--. 1 bachmeb bachmeb 317320273 Aug 29  2011 oracle-xe-11.2.0-1.0.x86_64.rpm
 drwxr-xr-x. 2 bachmeb bachmeb      4096 Aug 29  2011 response
 drwxrwxr-x. 2 bachmeb bachmeb      4096 Aug 29  2011 upgrade
+*/
+```
+
+##### Run the Oracle installer
+```
+sudo rpm -ivh oracle-xe-11.2.0-1.0.x86_64.rpm 
+```
+```c
+/*
+Preparing...                ########################################### [100%]
+   1:oracle-xe              ########################################### [100%]
+Executing post-install steps...
+
+You must run '/etc/init.d/oracle-xe configure' as the root user to configure the database.
 */
 ```
