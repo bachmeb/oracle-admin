@@ -193,3 +193,25 @@ Service "XEXDB" has 1 instance(s).
 The command completed successfully
 */
 ```
+
+##### Stop the oracle-xe service
+```
+sudo /sbin/service oracle-xe stop
+```
+```c
+/*
+Shutting down Oracle Database 11g Express Edition instance.
+Stopping Oracle Net Listener.
+*/
+```
+
+##### Start the oracle-xe service
+```
+sudo /sbin/service oracle-xe start
+```
+```c
+/*
+Starting Oracle Net Listener.
+Starting Oracle Database 11g Express Edition instance.
+*/
+```
