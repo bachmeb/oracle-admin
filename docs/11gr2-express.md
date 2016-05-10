@@ -250,14 +250,9 @@ bash -x ./oracle_env.sh
 */
 ```
 
-##### Add your user id to the dba group
+##### Add your user account to the dba group
 ```
-dba
-```
-
-Add your user account to the dba group
-```
-sudo usermod -a -G mailman [your user account]
+sudo usermod -a -G dba [your user account]
 ```
 
 ##### Exit your user sesison and switch back to your account to get Linux to recognize your account as a member of the mailman group
