@@ -12,6 +12,16 @@
       * Red Hat Enterprise Linux 5 Update 2
       * SUSE Linux Enterprise Server 10 SP2
       * SUSE Linux Enterprise Server 11
+* RAM
+  * 256 megabytes minimum, 512 megabytes recommended
+* Disk space
+  * 1.5 gigabyte minimum
+* Packages
+  * glibc should be greater than or equal to 2.3.4-2.41
+  * make should be greater than or equal to 3.80
+  * binutils should be greater than or equal to 2.16.91.0.5
+  * gcc should be greater than or equal to 4.1.2
+  * libaio should be greater than or equal to 0.3.104
 
 ##### Download Oracle Database Express Edition 11g Release 2 for Linux x64
 * http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
