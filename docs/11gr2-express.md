@@ -22,6 +22,20 @@
   * binutils should be greater than or equal to 2.16.91.0.5
   * gcc should be greater than or equal to 4.1.2
   * libaio should be greater than or equal to 0.3.104
+* Swap
+  * Minimum swap space required for Oracle Database XE is 2 GB or twice the size of RAM, whichever is lesser.
+* Kernel
+  * The Oracle Database XE installation checks your system for the following kernel parameter settings. If the kernel parameters of your system are less than the values listed in Table 2, then the installation will modify the kernel parameter setting to use these values.
+    * semmsl  250
+    * semmns  32000
+    * semopm  100
+    * semmni  128
+    * shmmax  4294967295
+    * shmmni  4096
+    * shmall  2097152
+    * file-max  6815744
+    * VERSION 2.4.21
+    * ip_local_port_range 9000–65500
 
 ##### Download Oracle Database Express Edition 11g Release 2 for Linux x64
 * http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
