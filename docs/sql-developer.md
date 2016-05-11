@@ -24,16 +24,15 @@
 ### Install
 
 ##### Install (CentoOS 6.7)
-    - rpm -Uhv sqldeveloper-(build number)-1.noarch.rpm (install the package)
-    - cd sqldeveloper (go to sqldeveloper folder)
-    - ./sqldeveloper.sh (run sqldeveloper.sh file)
-    - You will be prompted to enter a jdk path. (ie usr/java/jdk1.8.0_25)
-    - SQL Developer will automatically launch once jdk location is provided
-
+* rpm -Uhv sqldeveloper-(build number)-1.noarch.rpm (install the package)
+* cd sqldeveloper (go to sqldeveloper folder)
+* ./sqldeveloper.sh (run sqldeveloper.sh file)
+* You will be prompted to enter a jdk path. (ie usr/java/jdk1.8.0_25)
+* SQL Developer will automatically launch once jdk location is provided
 
 ### Connect
 
-##### Connect to MySQL DB
+##### Connect to MySQL DB on a remote host
 * Download a copy of the MySQL connector
   * [sql-developer](/docs/sql-developer.md)
 * Tools > Preferences
@@ -57,26 +56,42 @@
         * *Look for Status: Success*
       * Click Connect to save the connection
 
+##### Connect to Oracle XE on a remote host
+* View > Connections
+  * Click New Connection
+    * Connnection name: OracleXE
+    * Username: SYSTEM
+    * Password: [ -- enter the password for the SYSTEM account -- ]
+    * Save password: YES
+    * Oracle tab
+      * Connection type: Basic
+      * Role: default
+      * Hostname: [target database hostname or IP address]
+      * Port: 1521
+      * SID: xe
+      * OS Authentication: NO
+      * Kerebos Authentication: NO
+      * Proxy Connection: NO
+      * Click Test
+        * *Look for Status: Success*
+      * Click Connect to save the connection
+
 ##### Connect to Oracle XE on localhost
-* Download a copy of the MySQL connector
-  * [sql-developer](/docs/sql-developer.md)
-* Tools > Preferences
-  * Database
-    * Third Party JDBC Driver
-      * Click Add Entry
-        * Select the jar file: mysql-connector-java-5.0.4-bin.jar
-      * Click OK
 * View > Connections
   * Click New Connection
     * Connnection name:
     * Username: 
     * Password: 
     * Save password: YES
-    * MySQL tab
-      * Hostname: [target database hostname or IP address]
-      * Port: 3306
-      * Click Choose Database
-      * Select a database from the dropdown menu
+    * Oracle tab
+      * Connection type: Basic
+      * Role: default
+      * Hostname: 127.0.0.1
+      * Port: 1521
+      * SID: xe
+      * OS Authentication: NO
+      * Kerebos Authentication: NO
+      * Proxy Connection: NO
       * Click Test
         * *Look for Status: Success*
       * Click Connect to save the connection
