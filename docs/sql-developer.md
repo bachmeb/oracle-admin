@@ -5,6 +5,12 @@
 * https://docs.oracle.com/cd/E17781_01/server.112/e18804/dbconfig.htm#ADMQS254
 * http://www.oracle.com/technetwork/developer-tools/sql-developer/mysql-connection-viewlet-swf-085075.html
 * https://dev.mysql.com/downloads/connector/j/5.0.html
+* http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/sqldev-install-linux-1969676.html
+
+### Prepare
+
+##### Install JDK 1.8
+* https://github.com/bachmeb/java-jdk
 
 ### Download
 
