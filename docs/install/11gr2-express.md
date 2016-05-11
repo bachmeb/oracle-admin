@@ -2,6 +2,7 @@
 
 ## References
 * http://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm#XEINL101
+* http://www.coderanch.com/t/653119/JDBC/databases/Oracle-Express-Edition-creating-database
 
 ### Requirements
 * Operating system
