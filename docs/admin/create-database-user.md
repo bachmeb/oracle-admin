@@ -1,6 +1,7 @@
 # Create a database user
 * *You should create at least one database user that you will use to create database objects. A database user is a type of database object: a user is associated with a database schema, you connect to the database as a database user, and the database user is the owner of any database objects (tables and so on) that you create in the schema associated with the user.* (https://docs.oracle.com/cd/E17781_01/admin.112/e18585/toc.htm#XEGSG109)
 
+### SQL Command Line
 ##### Run the SQL Command Line
 * Applications > Oracle Database > Run SQL Command Line
 
@@ -38,3 +39,10 @@ SQL> grant CREATE SESSION, ALTER SESSION, CREATE DATABASE LINK,
   to brian;
 ```
 
+### SQL Developer
+
+* Create a database connection for the SYSTEM user.
+* Open that database connection for the SYSTEM user.
+* Right-click the Other Users node in the Connections navigator under that connection.
+* Select Create User, and specify the necessary information. 
+  * (Under System Privileges, grant ALTER SESSION, CREATE SESSION, CREATE DATABASE LINK, CREATE MATERIALIZED VIEW, CREATE PROCEDURE, CREATE PUBLIC SYNONYM, CREATE ROLE, CREATE SEQUENCE, CREATE SYNONYM, CREATE TABLE, CREATE TRIGGER, CREATE TYPE, CREATE VIEW, and UNLIMITED TABLESPACE.)
