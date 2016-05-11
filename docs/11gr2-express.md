@@ -46,8 +46,9 @@
   * The maximum amount of RAM that an Oracle Database XE database uses cannot exceed 1 gigabyte, even if more is available. 
   * Table 1, "Oracle Database XE Requirements" provides the minimum and recommended RAM that you should use. 
   * The exact amount of RAM that Oracle Database XE uses is computed automatically using Automatic Memory Management.
+  * To use more than 1 gigabyte of RAM, upgrade to Oracle Database 11g Standard Edition, Oracle Database 11g Standard Edition One, or Oracle Database 11g Enterprise Edition.
 
-To use more than 1 gigabyte of RAM, upgrade to Oracle Database 11g Standard Edition, Oracle Database 11g Standard Edition One, or Oracle Database 11g Enterprise Edition.
+### Install
 
 ##### Download Oracle Database Express Edition 11g Release 2 for Linux x64
 * http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
