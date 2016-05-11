@@ -4,6 +4,7 @@
 * http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html
 * https://docs.oracle.com/cd/E17781_01/server.112/e18804/dbconfig.htm#ADMQS254
 * http://www.oracle.com/technetwork/developer-tools/sql-developer/mysql-connection-viewlet-swf-085075.html
+* https://dev.mysql.com/downloads/connector/j/5.0.html
 
 ##### Download Version 4.1.3.20.78, Updated December 22, 2015
 * http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html
@@ -20,6 +21,8 @@ select * from v$version;
 ```
 
 ##### Connect to MySQL DB
+* Download a copy of the MySQL connector
+  * [sql-developer](/docs/sql-developer.md)
 * Tools > Preferences
   * Database
     * Third Party JDBC Driver
