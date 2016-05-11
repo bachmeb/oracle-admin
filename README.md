@@ -1,1 +1,3 @@
 # oracle-admin
+
+[docs](/docs)
