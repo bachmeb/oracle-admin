@@ -1,4 +1,4 @@
-# oracle db 11g release 2
+# oracle db express edition 11g release 2
 
 ## References
 * http://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm#XEINL101
@@ -40,6 +40,11 @@
   * You must have root permission to install Oracle Database XE.
 
 ### Limitations
+* Installation and Execution
+  * Only one installation of Oracle Database XE can be performed on a single computer. 
+  * This does not affect any existing installation or new installations of Oracle Database 11g Standard Edition, Oracle Database 11g Standard Edition One, or Oracle Database 11g Enterprise Edition. 
+  * In addition, users can run only one instance of the Oracle Database XE database on each individual computer. 
+  * To run more than one Oracle Database server instance or install more than one copy of the database software, upgrade to Oracle Database 11g Standard Edition, Oracle Database 11g Standard Edition One, or Oracle Database 11g Enterprise Edition.
 * Data
   * The maximum amount of user data in an Oracle Database XE database cannot exceed 11 gigabytes. 
   * If the user data grows beyond this limit, then an ORA-12592 error will appear. 
