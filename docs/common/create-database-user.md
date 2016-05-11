@@ -4,15 +4,13 @@
 ##### Run the SQL Command Line
 * Applications > Oracle Database > Run SQL Command Line
 
-```c
-/*
+```
 SQL*Plus: Release 11.2.0.2.0 Production on Wed May 11 11:52:12 2016
 
 Copyright (c) 1982, 2011, Oracle.  All rights reserved.
 
 Use "connect username/password@XE" to connect to the database.
 SQL> 
-*/
 ```
 
 ##### Connect
