@@ -21,7 +21,22 @@ select * from v$version;
 
 ##### Connect to MySQL DB
 * Tools > Preferences
-  * Datbase
+  * Database
     * Third Party JDBC Driver
       * Click Add Entry
-      * Select the jar file: mysql-connector-java-5.0.4-bin.jar
+        * Select the jar file: mysql-connector-java-5.0.4-bin.jar
+      * Click OK
+* View > Connections
+  * Click New Connection
+    * Connnection name:
+    * Username: 
+    * Password: 
+    * Save password: YES
+    * MySQL tab
+      * Hostname: [target database hostname or IP address]
+      * Port: 3306
+      * Click Choose Database
+      * Select a database from the dropdown menu
+      * Click Test
+        * *Look for Status: Success*
+      * Click Connect to save the connection
