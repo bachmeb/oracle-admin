@@ -18,3 +18,10 @@
 ```
 select * from v$version;
 ```
+
+##### Connect to MySQL DB
+* Tools > Preferences
+  * Datbase
+    * Third Party JDBC Driver
+      * Click Add Entry
+      * Select the jar file: mysql-connector-java-5.0.4-bin.jar
