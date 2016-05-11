@@ -13,13 +13,23 @@
 * https://github.com/bachmeb/java-jdk
 
 ### Download
-
-##### Download Version 4.1.3.20.78, Updated December 22, 2015
 * http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html
+
+##### Windows
+* Download Version 4.1.3.20.78 for Windows 32-bit/64-bit (314 MB)
+
+##### Linux
+* Download Version 4.1.3.20.78 for Linux RPM (308 MB)
 
 ### Install
 
 ##### Install (CentoOS 6.7)
+    - rpm -Uhv sqldeveloper-(build number)-1.noarch.rpm (install the package)
+    - cd sqldeveloper (go to sqldeveloper folder)
+    - ./sqldeveloper.sh (run sqldeveloper.sh file)
+    - You will be prompted to enter a jdk path. (ie usr/java/jdk1.8.0_25)
+    - SQL Developer will automatically launch once jdk location is provided
+
 
 ### Connect
 
