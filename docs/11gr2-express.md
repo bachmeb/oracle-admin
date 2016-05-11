@@ -41,7 +41,9 @@
 
 ### Limitations
 * Data
-  * The maximum amount of user data in an Oracle Database XE database cannot exceed 11 gigabytes. If the user data grows beyond this limit, then an ORA-12592 error will appear. To use more than 11 gigabytes of user data, upgrade to Oracle Database 11g Standard Edition, Oracle Database 11g Standard Edition One, or Oracle Database 11g Enterprise Edition.
+  * The maximum amount of user data in an Oracle Database XE database cannot exceed 11 gigabytes. 
+  * If the user data grows beyond this limit, then an ORA-12592 error will appear. 
+  * To use more than 11 gigabytes of user data, upgrade to Oracle Database 11g Standard Edition, Oracle Database 11g Standard Edition One, or Oracle Database 11g Enterprise Edition.
 * RAM
   * The maximum amount of RAM that an Oracle Database XE database uses cannot exceed 1 gigabyte, even if more is available. 
   * Table 1, "Oracle Database XE Requirements" provides the minimum and recommended RAM that you should use. 
