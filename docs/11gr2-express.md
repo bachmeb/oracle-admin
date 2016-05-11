@@ -259,7 +259,7 @@ bash -x ./oracle_env.sh
 sudo usermod -a -G dba [your user account]
 ```
 
-##### Exit your user sesison and switch back to your account to get Linux to recognize your account as a member of the mailman group
+##### Exit your user sesison and switch back to your account to get Linux to recognize your account as a member of the dba group
 ```
 exit
 sudo su -l [your user account]
