@@ -10,7 +10,17 @@
 * https://www.youtube.com/watch?v=Q9-sSHRT7n0&list=PL8SiaeRh_5oa8sUKX_W8u3mgzPiHVZEDj
 
 ##### Connect to system
+
+##### Look under Other Users to see the names of schemas which have already been created
+* Connections > System > Other Users
+
 ##### Create new schema for migration repository
+* Right-click the connection name and choose Open SQL Worksheet
+* Issue the command: 
+```
+asdf
+```
+
 ##### Grant privledges to migration repository schema
 ##### Connect to migration repository schema
 ##### Associate migration repository
