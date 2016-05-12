@@ -4,4 +4,17 @@
 
 ## References
 * https://docs.oracle.com/cd/E11882_01/doc.112/e12152/migration.htm
+* https://www.youtube.com/watch?v=W1QaEHpNw6Y
+* https://www.youtube.com/watch?v=3sX6YwvwS9M
+* https://www.youtube.com/watch?v=db1d1uJfQ9Q
+* https://www.youtube.com/watch?v=Q9-sSHRT7n0&list=PL8SiaeRh_5oa8sUKX_W8u3mgzPiHVZEDj
+
+##### Connect to system
+##### Create new schema for migration repository
+##### Grant privledges to migration repository schema
+##### Connect to migration repository schema
+##### Associate migration repository
+##### Migrate to Oracle
+
+
 
