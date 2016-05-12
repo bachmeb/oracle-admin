@@ -177,4 +177,23 @@ GRANT CREATE SESSION TO migrator ;
 * Expand Other Users
 * Look for the databases selected on the Capture screen of the migration wizard to appears as new users
 
+##### Connect to the migrated database
+* View > Connections
+  * Click New Connection
+    * Connnection name: xe-migrated
+    * Username: SYSTEM
+    * Password: [ -- enter the SYSTEM password -- ]
+    * Save password: YES
+    * Oracle tab
+      * Connection type: Basic
+      * Role: default
+      * Hostname: [target database hostname or IP address]
+      * Port: 1521
+      * SID: xe
+      * OS Authentication: NO
+      * Kerebos Authentication: NO
+      * Proxy Connection: NO
+      * Click Test
+        * *Look for Status: Success*
+      * Click Connect to save the connection
 
