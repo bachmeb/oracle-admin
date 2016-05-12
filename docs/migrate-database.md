@@ -18,8 +18,23 @@
 ###### Via command line
 * Right-click the connection name and choose Open SQL Worksheet
 * Issue the command: 
-```
-create user migration-repo identified by <password for migration-repo>;
+```sql
+ -- USER SQL
+CREATE USER migration-user IDENTIFIED BY migration-user 
+DEFAULT TABLESPACE "USERS"
+TEMPORARY TABLESPACE "TEMP";
+
+-- QUOTAS
+
+-- ROLES
+GRANT "RESOURCE" TO migration-user WITH ADMIN OPTION;
+
+-- SYSTEM PRIVILEGES
+GRANT CREATE USER TO migration-user WITH ADMIN OPTION;
+GRANT ALTER ANY TRIGGER TO migration-user WITH ADMIN OPTION;
+GRANT CREATE VIEW TO migration-user ;
+GRANT CREATE ROLE TO migration-user WITH ADMIN OPTION;
+GRANT CREATE SESSION TO migration-user ;
 ```
 ###### Via SQL Developer
 * Right-click the Other Users node in the Connections navigator under that connection.
@@ -46,25 +61,6 @@ create user migration-repo identified by <password for migration-repo>;
     * TEMP	false
     * UNDOTBS1	false
     * USERS	false		
-  * SQL
- ```sql
- -- USER SQL
-CREATE USER migration-user IDENTIFIED BY migration-user 
-DEFAULT TABLESPACE "USERS"
-TEMPORARY TABLESPACE "TEMP";
-
--- QUOTAS
-
--- ROLES
-GRANT "RESOURCE" TO migration-user WITH ADMIN OPTION;
-
--- SYSTEM PRIVILEGES
-GRANT CREATE USER TO migration-user WITH ADMIN OPTION;
-GRANT ALTER ANY TRIGGER TO migration-user WITH ADMIN OPTION;
-GRANT CREATE VIEW TO migration-user ;
-GRANT CREATE ROLE TO migration-user WITH ADMIN OPTION;
-GRANT CREATE SESSION TO migration-user ;
- ```
 
 ##### Grant privledges to migration repository schema
 ##### Connect to migration repository schema
