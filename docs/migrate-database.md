@@ -172,5 +172,9 @@ GRANT CREATE SESSION TO migrator ;
     * Summary
       * Finish
 
+##### Confirm migrated data
+* Go to the xe-system connection
+* Expand Other Users
+* Look for the databases selected on the Capture screen of the migration wizard to appears as new users
 
 
