@@ -15,11 +15,16 @@
 * Connections > System > Other Users
 
 ##### Create new schema for migration repository
+###### Via command line
 * Right-click the connection name and choose Open SQL Worksheet
 * Issue the command: 
 ```
 asdf
 ```
+###### Via SQL Developer
+* Right-click the Other Users node in the Connections navigator under that connection.
+* Select Create User, and specify the necessary information.
+  * (Under System Privileges, grant ALTER SESSION, CREATE SESSION, CREATE DATABASE LINK, CREATE MATERIALIZED VIEW, CREATE PROCEDURE, CREATE PUBLIC SYNONYM, CREATE ROLE, CREATE SEQUENCE, CREATE SYNONYM, CREATE TABLE, CREATE TRIGGER, CREATE TYPE, CREATE VIEW, and UNLIMITED TABLESPACE.)
 
 ##### Grant privledges to migration repository schema
 ##### Connect to migration repository schema
