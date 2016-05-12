@@ -134,15 +134,45 @@ GRANT CREATE SESSION TO migrator ;
 * Select Migrate to Oracle
   * Migration Wizard
     * Introduction
+      * Next
     * Repository
+      * Connection: xe-migrator
+      * Truncate: NO
+      * Next
     * Project
+      * Name: whatever
+      * Output Directory: wherever
+      * Next
     * Source Database
+      * Mode: Online
+      * Connection: migration-source
     * Capture
+      * Available Databases
+        * [ This list should have at least one db ]
+      * Selected Databases
+        * [ Move the databases you want to move into this list ]
     * Convert
+      * [ Review the proposed data type mappings ]
     * Translate
+      * Available SQL Objects
+        * [ should be blank ]
+      * Selected SQL Objects
+        * ALL_CONSTRAINTS
+        * ALL_FUNCTIONS
+        * ALL_PROCEDURES
+        * ALL_TRIGGERS
+        * ALL_VIEWS
     * Target Database
+      * Mode: Online
+      * Connection: xe-system
+      * Drop Target Objects: NO
     * Move Data
+      * Mode: Online
+      * Source: migration-source
+      * Target: xe-system
+      * Truncate Data: NO
     * Summary
+      * Finish
 
 
 
