@@ -131,7 +131,18 @@ GRANT CREATE SESSION TO migrator ;
 
 ##### Migrate database
 * Right click the migration-source connection
-* 
+* Select Migrate to Oracle
+  * Migration Wizard
+    * Introduction
+    * Repository
+    * Project
+    * Source Database
+    * Capture
+    * Convert
+    * Translate
+    * Target Database
+    * Move Data
+    * Summary
 
 
 
