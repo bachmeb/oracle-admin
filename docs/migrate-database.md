@@ -81,10 +81,57 @@ GRANT CREATE SESSION TO migrator ;
     * USERS	false		
 
 ##### Connect to migration repository schema
+* View > Connections
+  * Click New Connection
+    * Connnection name: xe-migrator
+    * Username: migrator
+    * Password: [ -- enter the password for the migrator account -- ]
+    * Save password: YES
+    * Oracle tab
+      * Connection type: Basic
+      * Role: default
+      * Hostname: [target database hostname or IP address]
+      * Port: 1521
+      * SID: xe
+      * OS Authentication: NO
+      * Kerebos Authentication: NO
+      * Proxy Connection: NO
+      * Click Test
+        * *Look for Status: Success*
+      * Click Connect to save the connection
 
 ##### Associate migration repository
+* Right click the xe-migrator connection
+* Choose Migration Repository > Associate Migration Repository
 
-##### Migrate to Oracle
+
+##### Create a connection to source database (in this example, the database is a MySQL DB)
+* Download a copy of the MySQL connector
+  * [sql-developer](/docs/sql-developer.md)
+* Tools > Preferences
+  * Database
+    * Third Party JDBC Driver
+      * Click Add Entry
+        * Select the jar file: mysql-connector-java-5.0.4-bin.jar
+      * Click OK
+* View > Connections
+  * Click New Connection
+    * Connnection name: migration-source
+    * Username: [ source db username]
+    * Password: [ source db password ]
+    * Save password: YES
+    * MySQL tab
+      * Hostname: [target database hostname or IP address]
+      * Port: 3306
+      * Click Choose Database
+      * Select a database from the dropdown menu
+      * Click Test
+        * *Look for Status: Success*
+      * Click Connect to save the connection
+
+##### Migrate database
+* Right click the migration-source connection
+* 
 
 
 
