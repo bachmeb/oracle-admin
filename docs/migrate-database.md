@@ -8,6 +8,7 @@
 * https://www.youtube.com/watch?v=3sX6YwvwS9M
 * https://www.youtube.com/watch?v=db1d1uJfQ9Q
 * https://www.youtube.com/watch?v=Q9-sSHRT7n0&list=PL8SiaeRh_5oa8sUKX_W8u3mgzPiHVZEDj
+* https://docs.oracle.com/cd/E25259_01/appdev.31/e24285/migration.htm#RPTUG40100
 
 ##### Connect to system
 * View > Connections
