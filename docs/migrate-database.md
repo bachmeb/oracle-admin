@@ -19,28 +19,28 @@
 * Right-click the connection name and choose Open SQL Worksheet
 * Issue the command: 
 ```sql
- -- USER SQL
-CREATE USER migration-user IDENTIFIED BY migration-user 
+-- USER SQL
+CREATE USER migrator IDENTIFIED BY migrator 
 DEFAULT TABLESPACE "USERS"
 TEMPORARY TABLESPACE "TEMP";
 
 -- QUOTAS
 
 -- ROLES
-GRANT "RESOURCE" TO migration-user WITH ADMIN OPTION;
+GRANT "RESOURCE" TO migrator WITH ADMIN OPTION;
 
 -- SYSTEM PRIVILEGES
-GRANT CREATE USER TO migration-user WITH ADMIN OPTION;
-GRANT ALTER ANY TRIGGER TO migration-user WITH ADMIN OPTION;
-GRANT CREATE VIEW TO migration-user ;
-GRANT CREATE ROLE TO migration-user WITH ADMIN OPTION;
-GRANT CREATE SESSION TO migration-user ;
+GRANT CREATE USER TO migrator WITH ADMIN OPTION;
+GRANT ALTER ANY TABLE TO migrator WITH ADMIN OPTION;
+GRANT CREATE VIEW TO migrator ;
+GRANT CREATE ROLE TO migrator WITH ADMIN OPTION;
+GRANT CREATE SESSION TO migrator ;
 ```
 ###### Via SQL Developer
 * Right-click the Other Users node in the Connections navigator under that connection.
 * Select Create User
   * User
-    * User Name: migration-user
+    * User Name: migrator
     * New Password: [ -- whatever -- ]
     * Password Expired: NO
     * Account is Locked: NO
@@ -50,8 +50,8 @@ GRANT CREATE SESSION TO migration-user ;
   * Granted Roles
     * RESOURCE (Granted, Admin)
   * System Privileges
-    * ALTER ANY TRIGGER (Admin)
-    * CREATE ROLE (Granted, Admin Option)    
+    * ALTER ANY TRIGGER (Granted, Admin Option)
+    * CREATE ROLE (Granted, Admin Option)
     * CREATE SESSION (Granted)
     * CREATE USER (Granted, Admin)
     * CREATE VIEW (Granted)
@@ -62,9 +62,10 @@ GRANT CREATE SESSION TO migration-user ;
     * UNDOTBS1	false
     * USERS	false		
 
-##### Grant privledges to migration repository schema
 ##### Connect to migration repository schema
+
 ##### Associate migration repository
+
 ##### Migrate to Oracle
 
 
