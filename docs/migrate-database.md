@@ -10,9 +10,27 @@
 * https://www.youtube.com/watch?v=Q9-sSHRT7n0&list=PL8SiaeRh_5oa8sUKX_W8u3mgzPiHVZEDj
 
 ##### Connect to system
+* View > Connections
+  * Click New Connection
+    * Connnection name: xe-system
+    * Username: SYSTEM
+    * Password: [ -- enter the password for the SYSTEM account -- ]
+    * Save password: YES
+    * Oracle tab
+      * Connection type: Basic
+      * Role: default
+      * Hostname: [target database hostname or IP address]
+      * Port: 1521
+      * SID: xe
+      * OS Authentication: NO
+      * Kerebos Authentication: NO
+      * Proxy Connection: NO
+      * Click Test
+        * *Look for Status: Success*
+      * Click Connect to save the connection
 
 ##### Look under Other Users to see the names of schemas which have already been created
-* Connections > System > Other Users
+* Connections > xe-system > Other Users
 
 ##### Create new schema for migration repository
 ###### Via command line
