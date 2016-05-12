@@ -138,11 +138,9 @@ GRANT CREATE SESSION TO migrator ;
     * Repository
       * Connection: xe-migrator
       * Truncate: NO
-      * Next
     * Project
       * Name: whatever
       * Output Directory: wherever
-      * Next
     * Source Database
       * Mode: Online
       * Connection: migration-source
