@@ -1,4 +1,4 @@
-# connect 
+# sqlplus 
 
 ## References
 * https://docs.oracle.com/cd/E17781_01/server.112/e18804/connecting.htm#ADMQS143
