@@ -1,4 +1,4 @@
-# service oracle-xe 
+# oracle-xe service
 
 ##### Check the status of the oracle-xe service (not running)
 ```
