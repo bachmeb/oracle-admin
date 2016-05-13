@@ -21,3 +21,16 @@ Copyright (c) 1982, 2011, Oracle.  All rights reserved.
 Enter user-name:
 */
 ```
+
+##### Login as system
+```c
+/*
+Enter user-name: system
+Enter password:
+
+Connected to:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+
+SQL>
+*/
+```
