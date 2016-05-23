@@ -4,6 +4,7 @@
 * http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html
 
 ##### Download the basic and devel packages
+* http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html
 
 ##### Install the basic package
 ```
