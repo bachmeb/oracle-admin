@@ -128,6 +128,17 @@ libclntsh.so           libmql1.so         libocci.so.12.1  libons.so        ojdb
 */
 ```
 
+##### List the contents of the ld.so.conf.d directory
+```
+ls /etc/ld.so.conf.d/
+```
+```c
+/*
+kernel-2.6.32-573.26.1.el6.x86_64.conf  mysql57u-x86_64.conf                    qt-x86_64.conf
+kernel-2.6.32-573.el6.x86_64.conf       mysqlclient16-x86_64.conf               xulrunner-64.conf
+*/
+```
+
 ##### Check the current value of LD_LIBRARY_PATH
 ```
 echo $LD_LIBRARY_PATH
@@ -142,3 +153,4 @@ export LD_LIBRARY_PATH=/usr/lib/oracle/12.1/client64/lib:$LD_LIBRARY_PATH
 ```
 echo $LD_LIBRARY_PATH
 ```
+
