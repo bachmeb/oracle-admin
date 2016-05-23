@@ -41,6 +41,18 @@ sudo find / -name client64
 */
 ```
 
+##### List the contents of the client64/lib directory
+```
+ls /usr/lib/oracle/12.1/client64/lib/
+```
+```c
+/*
+libclntshcore.so       libclntsh.so.12.1  libnnz12.so      libociei.so      liboramysql12.so  ottclasses.zip
+libclntshcore.so.12.1  libipc1.so         libocci.so       libocijdbc12.so  ojdbc6.jar        xstreams.jar
+libclntsh.so           libmql1.so         libocci.so.12.1  libons.so        ojdbc7.jar
+*/
+```
+
 ##### Check the current value of LD_LIBRARY_PATH
 ```
 echo $LD_LIBRARY_PATH
