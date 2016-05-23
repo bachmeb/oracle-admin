@@ -152,7 +152,7 @@ sudo nano /etc/ld.so.conf.d/oracle_client.conf
 ```
 sudo ldconfig -v
 ```
-```
+```c
 /*
 ldconfig: /etc/ld.so.conf.d/kernel-2.6.32-573.el6.x86_64.conf:6: duplicate hwcap 1 nosegneg
 ldconfig: Path `/usr/lib64/mysql' given more than once
