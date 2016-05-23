@@ -17,7 +17,7 @@ sudo find / -name lsnrctl
 ```
 /u01/app/oracle/product/11.2.0/xe/bin/lsnrctl
 ```
-```
+```c
 /*
 LSNRCTL for Linux: Version 11.2.0.2.0 - Production on 23-MAY-2016 12:43:00
 
