@@ -8,7 +8,7 @@
 sudo find / -name lsnrctl
 ```
 ```c
-*/
+/*
 /u01/app/oracle/product/11.2.0/xe/bin/lsnrctl
 */
 ```
