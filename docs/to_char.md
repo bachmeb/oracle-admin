@@ -7,3 +7,9 @@
 ```
 TO_CHAR( someDate, 'YYYY-MON-DD' ) as theDate,
 ```
+```
+TO_CHAR(ts_col, 'DD-MON-YYYY HH24:MI:SSxFF')
+```
+```
+TO_CHAR(tstz_col, 'DD-MON-YYYY HH24:MI:SSxFF TZH:TZM')
+```
