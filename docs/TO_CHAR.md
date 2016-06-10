@@ -1,4 +1,4 @@
-# to_char()
+# TO_CHAR()
 
 ## References
 * http://docs.oracle.com/cd/B19306_01/server.102/b14200/functions180.htm
