@@ -1,3 +1,5 @@
+
+```sql
 select * from USER_TABLES;
 
 select * from ALL_COL_PRIVS;
@@ -28,3 +30,4 @@ select * from USER_SYS_PRIVS;
 select * from USER_TAB_PRIVS;
 select * from USER_TAB_PRIVS_MADE;
 select * from USER_TAB_PRIVS_RECD;
+```
