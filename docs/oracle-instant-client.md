@@ -790,7 +790,7 @@ echo $LD_LIBRARY_PATH
 
 ##### Set the environment variable LD_LIBRARY_PATH to the appropriate directory for the Instant Client version
 ```
-export LD_LIBRARY_PATH=/usr/lib/oracle/12.1/client64/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/lib/oracle/12.2/client64/lib:$LD_LIBRARY_PATH
 ```
 
 ##### Check the current value of LD_LIBRARY_PATH
@@ -798,3 +798,7 @@ export LD_LIBRARY_PATH=/usr/lib/oracle/12.1/client64/lib:$LD_LIBRARY_PATH
 echo $LD_LIBRARY_PATH
 ```
 
+##### Open sqlplus
+```
+sqlplus64
+```
