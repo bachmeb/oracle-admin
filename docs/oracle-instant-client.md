@@ -9,82 +9,82 @@
 
 ##### List the files in the RPM files
 ```
-rpm -qpl oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm 
+rpm -qpl oracle-instantclient12.2-basic-12.2.0.2.0-1.x86_64.rpm 
 ```
 ```c
 /*
-/usr/lib/oracle/12.1/client64/bin/adrci
-/usr/lib/oracle/12.1/client64/bin/genezi
-/usr/lib/oracle/12.1/client64/lib/libclntsh.so.12.1
-/usr/lib/oracle/12.1/client64/lib/libclntshcore.so.12.1
-/usr/lib/oracle/12.1/client64/lib/libipc1.so
-/usr/lib/oracle/12.1/client64/lib/libmql1.so
-/usr/lib/oracle/12.1/client64/lib/libnnz12.so
-/usr/lib/oracle/12.1/client64/lib/libocci.so.12.1
-/usr/lib/oracle/12.1/client64/lib/libociei.so
-/usr/lib/oracle/12.1/client64/lib/libocijdbc12.so
-/usr/lib/oracle/12.1/client64/lib/libons.so
-/usr/lib/oracle/12.1/client64/lib/liboramysql12.so
-/usr/lib/oracle/12.1/client64/lib/ojdbc6.jar
-/usr/lib/oracle/12.1/client64/lib/ojdbc7.jar
-/usr/lib/oracle/12.1/client64/lib/xstreams.jar
+/usr/lib/oracle/12.2/client64/bin/adrci
+/usr/lib/oracle/12.2/client64/bin/genezi
+/usr/lib/oracle/12.2/client64/lib/libclntsh.so.12.2
+/usr/lib/oracle/12.2/client64/lib/libclntshcore.so.12.2
+/usr/lib/oracle/12.2/client64/lib/libipc1.so
+/usr/lib/oracle/12.2/client64/lib/libmql1.so
+/usr/lib/oracle/12.2/client64/lib/libnnz12.so
+/usr/lib/oracle/12.2/client64/lib/libocci.so.12.2
+/usr/lib/oracle/12.2/client64/lib/libociei.so
+/usr/lib/oracle/12.2/client64/lib/libocijdbc12.so
+/usr/lib/oracle/12.2/client64/lib/libons.so
+/usr/lib/oracle/12.2/client64/lib/liboramysql12.so
+/usr/lib/oracle/12.2/client64/lib/ojdbc6.jar
+/usr/lib/oracle/12.2/client64/lib/ojdbc7.jar
+/usr/lib/oracle/12.2/client64/lib/xstreams.jar
 */
 ```
 ```
-rpm -qpl oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm 
+rpm -qpl oracle-instantclient12.2-devel-12.2.0.2.0-1.x86_64.rpm 
 ```
 ```c
 /*
-/usr/include/oracle/12.1/client64/ldap.h
-/usr/include/oracle/12.1/client64/nzerror.h
-/usr/include/oracle/12.1/client64/nzt.h
-/usr/include/oracle/12.1/client64/occi.h
-/usr/include/oracle/12.1/client64/occiAQ.h
-/usr/include/oracle/12.1/client64/occiCommon.h
-/usr/include/oracle/12.1/client64/occiControl.h
-/usr/include/oracle/12.1/client64/occiData.h
-/usr/include/oracle/12.1/client64/occiObjects.h
-/usr/include/oracle/12.1/client64/oci.h
-/usr/include/oracle/12.1/client64/oci1.h
-/usr/include/oracle/12.1/client64/oci8dp.h
-/usr/include/oracle/12.1/client64/ociap.h
-/usr/include/oracle/12.1/client64/ociapr.h
-/usr/include/oracle/12.1/client64/ocidef.h
-/usr/include/oracle/12.1/client64/ocidem.h
-/usr/include/oracle/12.1/client64/ocidfn.h
-/usr/include/oracle/12.1/client64/ociextp.h
-/usr/include/oracle/12.1/client64/ocikpr.h
-/usr/include/oracle/12.1/client64/ocixmldb.h
-/usr/include/oracle/12.1/client64/ocixstream.h
-/usr/include/oracle/12.1/client64/odci.h
-/usr/include/oracle/12.1/client64/oratypes.h
-/usr/include/oracle/12.1/client64/ori.h
-/usr/include/oracle/12.1/client64/orid.h
-/usr/include/oracle/12.1/client64/orl.h
-/usr/include/oracle/12.1/client64/oro.h
-/usr/include/oracle/12.1/client64/ort.h
-/usr/include/oracle/12.1/client64/xa.h
-/usr/lib/oracle/12.1/client64/lib/libclntsh.so
-/usr/lib/oracle/12.1/client64/lib/libclntshcore.so
-/usr/lib/oracle/12.1/client64/lib/libocci.so
-/usr/lib/oracle/12.1/client64/lib/ottclasses.zip
-/usr/share/oracle/12.1/client64/admin/oraaccess.xsd
-/usr/share/oracle/12.1/client64/demo/cdemo81.c
-/usr/share/oracle/12.1/client64/demo/demo.mk
-/usr/share/oracle/12.1/client64/demo/occidemo.sql
-/usr/share/oracle/12.1/client64/demo/occidemod.sql
-/usr/share/oracle/12.1/client64/demo/occidml.cpp
-/usr/share/oracle/12.1/client64/demo/occiobj.cpp
-/usr/share/oracle/12.1/client64/demo/occiobj.typ
-/usr/share/oracle/12.1/client64/demo/oraaccess.xml
-/usr/share/oracle/12.1/client64/demo/ott
-/usr/share/oracle/12.1/client64/demo/setuporamysql.sh
+/usr/include/oracle/12.2/client64/ldap.h
+/usr/include/oracle/12.2/client64/nzerror.h
+/usr/include/oracle/12.2/client64/nzt.h
+/usr/include/oracle/12.2/client64/occi.h
+/usr/include/oracle/12.2/client64/occiAQ.h
+/usr/include/oracle/12.2/client64/occiCommon.h
+/usr/include/oracle/12.2/client64/occiControl.h
+/usr/include/oracle/12.2/client64/occiData.h
+/usr/include/oracle/12.2/client64/occiObjects.h
+/usr/include/oracle/12.2/client64/oci.h
+/usr/include/oracle/12.2/client64/oci1.h
+/usr/include/oracle/12.2/client64/oci8dp.h
+/usr/include/oracle/12.2/client64/ociap.h
+/usr/include/oracle/12.2/client64/ociapr.h
+/usr/include/oracle/12.2/client64/ocidef.h
+/usr/include/oracle/12.2/client64/ocidem.h
+/usr/include/oracle/12.2/client64/ocidfn.h
+/usr/include/oracle/12.2/client64/ociextp.h
+/usr/include/oracle/12.2/client64/ocikpr.h
+/usr/include/oracle/12.2/client64/ocixmldb.h
+/usr/include/oracle/12.2/client64/ocixstream.h
+/usr/include/oracle/12.2/client64/odci.h
+/usr/include/oracle/12.2/client64/oratypes.h
+/usr/include/oracle/12.2/client64/ori.h
+/usr/include/oracle/12.2/client64/orid.h
+/usr/include/oracle/12.2/client64/orl.h
+/usr/include/oracle/12.2/client64/oro.h
+/usr/include/oracle/12.2/client64/ort.h
+/usr/include/oracle/12.2/client64/xa.h
+/usr/lib/oracle/12.2/client64/lib/libclntsh.so
+/usr/lib/oracle/12.2/client64/lib/libclntshcore.so
+/usr/lib/oracle/12.2/client64/lib/libocci.so
+/usr/lib/oracle/12.2/client64/lib/ottclasses.zip
+/usr/share/oracle/12.2/client64/admin/oraaccess.xsd
+/usr/share/oracle/12.2/client64/demo/cdemo81.c
+/usr/share/oracle/12.2/client64/demo/demo.mk
+/usr/share/oracle/12.2/client64/demo/occidemo.sql
+/usr/share/oracle/12.2/client64/demo/occidemod.sql
+/usr/share/oracle/12.2/client64/demo/occidml.cpp
+/usr/share/oracle/12.2/client64/demo/occiobj.cpp
+/usr/share/oracle/12.2/client64/demo/occiobj.typ
+/usr/share/oracle/12.2/client64/demo/oraaccess.xml
+/usr/share/oracle/12.2/client64/demo/ott
+/usr/share/oracle/12.2/client64/demo/setuporamysql.sh
 */
 ```
 
 ##### Install the basic package
 ```
-sudo rpm -ivh oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm 
+sudo rpm -ivh oracle-instantclient12.2-basic-12.2.0.2.0-1.x86_64.rpm 
 ```
 ```c
 /*
@@ -95,7 +95,7 @@ Preparing...                ########################################### [100%]
 
 ##### Install the devel package
 ```
-sudo rpm -ivh oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm 
+sudo rpm -ivh oracle-instantclient12.2-devel-12.2.0.2.0-1.x86_64.rpm 
 ```
 ```c
 /*
@@ -110,21 +110,21 @@ sudo find / -name client64
 ```
 ```c
 /*
-/usr/include/oracle/12.1/client64
-/usr/share/oracle/12.1/client64
-/usr/lib/oracle/12.1/client64
+/usr/include/oracle/12.2/client64
+/usr/share/oracle/12.2/client64
+/usr/lib/oracle/12.2/client64
 */
 ```
 
 ##### List the contents of the client64/lib directory
 ```
-ls /usr/lib/oracle/12.1/client64/lib/
+ls /usr/lib/oracle/12.2/client64/lib/
 ```
 ```c
 /*
-libclntshcore.so       libclntsh.so.12.1  libnnz12.so      libociei.so      liboramysql12.so  ottclasses.zip
-libclntshcore.so.12.1  libipc1.so         libocci.so       libocijdbc12.so  ojdbc6.jar        xstreams.jar
-libclntsh.so           libmql1.so         libocci.so.12.1  libons.so        ojdbc7.jar
+libclntshcore.so       libclntsh.so.12.2  libnnz12.so      libociei.so      liboramysql12.so  ottclasses.zip
+libclntshcore.so.12.2  libipc1.so         libocci.so       libocijdbc12.so  ojdbc6.jar        xstreams.jar
+libclntsh.so           libmql1.so         libocci.so.12.2  libons.so        ojdbc7.jar
 */
 ```
 
@@ -146,7 +146,7 @@ sudo nano /etc/ld.so.conf.d/oracle_client.conf
 
 ##### Add the path to the lib directory to the config file
 ```
-/usr/lib/oracle/12.1/client64/lib/
+/usr/lib/oracle/12.2/client64/lib/
 ```
 ##### Register the newly installed libraries
 ```
@@ -160,17 +160,17 @@ ldconfig: Path `/usr/lib64/mysql' given more than once
 	libmysqlclient_r.so.16 -> libmysqlclient_r.so.16.0.0
 	libmysqlclient.so.16 -> libmysqlclient.so.16.0.0
 	libmysqlclient.so.1020 -> libmysqlclient.so.1020.2.1
-/usr/lib/oracle/12.1/client64/lib:
+/usr/lib/oracle/12.2/client64/lib:
 	libnnz12.so -> libnnz12.so
 	libipc1.so -> libipc1.so
 	libmql1.so -> libmql1.so
 	liboramysql12.so -> liboramysql12.so
 	libons.so -> libons.so
 	libocijdbc12.so -> libocijdbc12.so
-	libocci.so.12.1 -> libocci.so.12.1
-	libclntshcore.so.12.1 -> libclntshcore.so.12.1
+	libocci.so.12.2 -> libocci.so.12.2
+	libclntshcore.so.12.2 -> libclntshcore.so.12.2
 	libociei.so -> libociei.so
-	libclntsh.so.12.1 -> libclntsh.so.12.1
+	libclntsh.so.12.2 -> libclntsh.so.12.2
 /usr/lib64/qt-3.3/lib:
 	libqt-mt.so.3 -> libqt-mt.so.3.3.8
 	libqui.so.1 -> libqui.so.1.0.0
