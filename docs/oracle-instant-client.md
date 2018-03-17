@@ -4,7 +4,7 @@
 * http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html
 * http://www.hexblot.com/blog/making-connection-php-oracle-centos-64
 
-##### Download the basic and devel packages
+##### Download the basic and devel and sqlplus packages
 * http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html
 
 ##### List the files in the RPM files
@@ -81,6 +81,16 @@ rpm -qpl oracle-instantclient12.2-devel-12.2.0.2.0-1.x86_64.rpm
 /usr/share/oracle/12.2/client64/demo/setuporamysql.sh
 */
 ```
+```
+rpm -qpl oracle-instantclient12.2-sqlplus-12.2.0.2.0-1.x86_64.rpm 
+```
+```
+/usr/bin/sqlplus64
+/usr/lib/oracle/12.2/client64/bin/sqlplus
+/usr/lib/oracle/12.2/client64/lib/glogin.sql
+/usr/lib/oracle/12.2/client64/lib/libsqlplus.so
+/usr/lib/oracle/12.2/client64/lib/libsqlplusic.so
+```
 
 ##### Install the basic package
 ```
@@ -96,6 +106,16 @@ Preparing...                ########################################### [100%]
 ##### Install the devel package
 ```
 sudo rpm -ivh oracle-instantclient12.2-devel-12.2.0.2.0-1.x86_64.rpm 
+```
+```c
+/*
+Preparing...                ########################################### [100%]
+   1:oracle-instantclient12.########################################### [100%]
+*/
+```
+##### Install the sqlplus package
+```
+sudo rpm -ivh oracle-instantclient12.2-sqlplus-12.2.0.2.0-1.x86_64.rpm 
 ```
 ```c
 /*
