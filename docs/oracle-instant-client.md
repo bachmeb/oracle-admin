@@ -161,7 +161,7 @@ kernel-2.6.32-573.el6.x86_64.conf       mysqlclient16-x86_64.conf               
 
 ##### Create an Oracle Client config file
 ```
-sudo nano /etc/ld.so.conf.d/oracle_client.conf
+sudo vi /etc/ld.so.conf.d/oracle_client.conf
 ```
 
 ##### Add the path to the lib directory to the config file
